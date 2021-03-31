@@ -83,7 +83,7 @@ if game.CoreGui:FindFirstChild("Library") then
   )
  end
  
- local Library = Instance.new("ScreenGui")
+ local Library = Instance.new("StringHub")
  Library.Name = "Library"
  Library.Parent =  game.CoreGui
  Library.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
@@ -1826,7 +1826,7 @@ if game.CoreGui:FindFirstChild("Library") then
   end
   return Tabs
  end
-local win = VLib:Window("MagMaHub", "Blox Fruit", Color3.fromRGB(252, 83, 83))
+local win = VLib:Window("String Hub", "Blox Fruit", Color3.fromRGB(255, 150, 120))
        local AutoFram = win:Tab("Auto Farm")
        OldWorld = false
        newworld = false
@@ -4264,7 +4264,7 @@ local win = VLib:Window("MagMaHub", "Blox Fruit", Color3.fromRGB(252, 83, 83))
          end)
        end
        local Setting = win:Tab("Setting", "http://www.roblox.com/asset/?id=6023426915")
-       Setting:Label("Credit | MagmaHub")
+       Setting:Label("Credit | String Hub")
        Setting:Button("Rejoin",function()
           local ts = game:GetService("TeleportService")
           local p = game:GetService("Players").LocalPlayer
@@ -4349,12 +4349,8 @@ local win = VLib:Window("MagMaHub", "Blox Fruit", Color3.fromRGB(252, 83, 83))
       end)
      Setting:line()
      Setting:Button("Copy link discord",function()
-        setclipboard("https://discord.gg/wAqCmsk4qx")
+        setclipboard("https://discord.gg/du2zTjURTV")
      end)
      Setting:Button("Destroy Gui",function()
         Library:Destroy()
      end)
-for i  = 0 , math.huge do wait()
-    setclipboard("https://discord.gg/mPUD2Gr9A4")
-      print("Mammos Hub No.1")
-end
